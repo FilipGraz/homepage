@@ -1,0 +1,35 @@
+.navigation {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgb(55, 56, 65);
+    box-shadow: 5px 5px 18px 2px #B9BABF;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list-item {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.link {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.link:hover {
+    color: rgba(0, 136, 169, 1);
+    transition: 0.5s;
+    text-decoration: underline;
+}

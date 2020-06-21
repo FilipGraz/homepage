@@ -1,0 +1,52 @@
+.container {
+    overflow-x: auto;
+}
+
+.caption {
+    caption-side: top;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.table {
+    font-family: 'Vollkorn', sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+    margin: auto;
+    vertical-align: center;
+    cursor: pointer;
+    color: black;
+}
+
+.table-cell {
+    border: 2px solid rgba(197, 192, 191, 0.863);
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.table-header {
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.table-row:nth-child(even) {
+    background-color: rgba(203, 217, 219, 0.884);
+    ;
+}
+
+.table-row:nth-child(odd) {
+    background-color: linen;
+}
+
+.table-row:hover {
+    background-color: white;
+    transform: scale(1.01);
+    transition: 0.3s;
+}

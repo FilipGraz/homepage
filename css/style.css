@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+    max-width: 1600px;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Vollkorn', serif;
+    background-color: #3d3b3b;
+    color: white;
+}
+
+.button-white-mode, .button-header, .button-passion {
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 5px;
+    margin: auto;
+}
+
+.body-body {
+    background-color: white;
+    color: black;
+}
+
+.main-header {
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+}
+
+.main-header2 {
+    background-color: black;
+    color: white;
+}
+
+.passion {
+    color: pink;
+}
+
+.passion2 {
+    color: red;
+}
+
+.main-box {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px 15px 25px;
+    font-size: 25px;
+}
+
+.digi {
+    color: blue;
+}
+
+.couch {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hobby {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.photo {
+    float: left;
+    padding-right: 20px;
+}
+
+.img-container {
+    display: inline-table;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.buttom-photo {
+    float: left;
+}
+
+.more {
+    list-style-type: disc;
+    font-size: 25px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.footer {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgb(55, 56, 65);
+    box-shadow: 5px 5px 18px 2px #B9BABF;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
